@@ -46,8 +46,14 @@ header{
 }
 
 footer {
+    display: flex;
     background-color: rgb(56, 56, 56);
     height: 80px;
     margin-top:20px;
 }
 
+.end {
+    color: red;
+    background-color: rgb(121, 120, 120);
+    padding: 25px 10px;
+}
