@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.viewport {
+    background-color: black;
+    height: 100vh;
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.button {
+    background-color: brown;
+    color: white;
+    margin-right: 5px;
+    padding: 7px 7px;
+    border-radius: 10px;
+}
+
+.utenti {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 80px;
+}
+
+.box-img {
+    margin-top: 20px ;
+    padding: 0 10px;
+    position: relative;
+}
+
+.box-img img {
+    width: 165px;
+}
+
+.name{
+    position: absolute;
+    bottom: 5%;
+    color: white;
+    background-color: #ccc;
+}
+
+footer {
+    background-color: rgb(56, 56, 56);
+    height: 80px;
+    margin-top:20px;
+}
+
